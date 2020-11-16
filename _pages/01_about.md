@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
+header: Irma Rodriguez
+subheader: Product Designer
+id: about
 ---
-
-About content goes here.
-
-- A list item
-- Another list item

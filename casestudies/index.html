@@ -1,0 +1,14 @@
+---
+layout: page
+title: Case Studies
+permalink: /casestudies/
+header: Case Studies
+subheader:  
+id: casestudies
+---
+
+{% for post in site.posts %}
+        <time>{{ post.date | date: "%b %-d %Y" }}</time>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+
+        {% endfor %}
