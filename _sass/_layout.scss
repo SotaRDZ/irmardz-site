@@ -63,6 +63,7 @@ h5 {
 h6 {
 	height: 18px;
 	margin-left: 5em;
+	margin-bottom: 0px;
 	width: 500px;
 	color: #5C5655;
 	font-family: Lato;
@@ -75,23 +76,6 @@ h6 {
 	display: inline-block;
 
 }
-
-h6 {
-	height: 18px;
-	margin-left: 5em;
-	width: 500px;
-	color: #5C5655;
-	font-family: Lato;
-	font-weight: 400;
-	font-size: 15px;
-	font-style: italic;
-	letter-spacing: 0;
-	line-height: 18px;
-	text-transform: uppercase;
-	display: inline-block;
-
-}
-
 
 a,
 a:visited {
@@ -150,32 +134,85 @@ time {
 p {
 	margin-left: 50px;
 	margin-right: 50px;
+	margin-bottom: 50px;
+
 }
 
 .wrapper {
 	text-align: left;
-	
 	margin-left: 50px;
     display: flex;
     max-width: 100%;
     width: 100%;
 	align-content: center;
 	align-items: center;
-	div:first-child{max-width: 20%;}
-	div:nth-child(2){max-width: 70%;
-		margin-left: 5%;}
+	div:first-child{max-width: 30%;}
+	div:nth-child(2){max-width: 60%;
+		margin-left: 5%;
 		margin-right: 5%;}
-
-	.img{
-		max-width: 100%;
-		margin-top: 20px;
-	}
 	h6{
-		margin-left: 0;
-		margin-bottom: 0;
+		margin-left:75px;
+		margin-bottom:0px;
+	}
+}
+
+.wrapper2 {
+	text-align: left;
+	margin-left: 50px;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+	align-content: center;
+	align-items: center;
+	div:first-child{max-width: 50%;}
+	div:nth-child(2){max-width: 50%;
+		margin-left: 5%;
+		margin-right: 5%;}
+	h6{
+		margin-top:-40px;
+		margin-left: 10px;
+		margin-bottom:0px;
+	}
+}
+
+.wrapper3 {
+	text-align: left;
+	margin-left: 50px;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+	align-content: center;
+	align-items: center;
+	div:first-child{max-width: 50%;
+	h6{
+		margin-left: 0px;
+	}
+}
+	div:nth-child(2){max-width: 50%;
+	margin-top: -30px;}
+	h6{
+		margin-top: 40px;
+		margin-bottom:0px;
+	}
+	.img{	
+		margin-top: -20px;
+		margin-bottom: -20px;
 
 	}
 }
+
+.img{
+	max-width: 100%;
+	margin-top: -20px;
+	-webkit-transform: scale(0.8); /* Saf3.1+, Chrome */
+	-moz-transform: scale(0.8); /* FF3.5+ */
+	-ms-transform: scale(0.8); /* IE9 */
+	-o-transform: scale(0.8); /* Opera 10.5+ */
+	transform: scale(0.8);
+			/* IE6–IE9 */
+		filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
+}
+
 
 
 /* Navigation */
