@@ -39,13 +39,15 @@ a:hover {
 header {
 	background: $header;
 	padding: 0px 15px;
-	text-align: center;
+	text-align: left;
 	margin: 50px 0 0;
 	height: 50vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
+	#home &{
+		background-image: url("/heroImages/about.png")	
+}}
 main {
 	padding: 0 15px;
 	max-width: $content-width;
