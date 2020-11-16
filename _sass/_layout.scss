@@ -96,7 +96,17 @@ time {
 	margin: 0 auto;
 }
 
-/* Aside */
+.img {
+	margin: 50px auto;
+	display: block;
+}
+
+p {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/* Navigation */
 
 .menu {
 	position: fixed;
@@ -104,11 +114,11 @@ time {
 	left: 0;
 	width: 100%;
 	z-index: 2;
-	background-color:rgba($color: #ffffff, $alpha: .90);
+	background-color:rgba($color: #ffffff, $alpha: .9);
 	height: 44px;
 	nav {
 		float: left;
-		max-width: 800px;
+		max-width: 1400px;
 		margin: 0 auto;
 		width: 100%;
 		ul {
@@ -143,8 +153,15 @@ time {
 			content: '';
 			display: table;
 			clear: both;
+		}	
+		
+	
 		}
-	}
+		&.transparent{
+			background-color: #ffffff;
+			border-bottom: 1px solid #898989;
+			top:0px
+		}
 }
 footer {
 	background-color: #E5E4E8;
@@ -154,7 +171,7 @@ footer {
 		justify-content: space-between;
 		align-items: space-around;
 		flex-wrap: wrap;
-		max-width: 1044px;
+		max-width: $content-width;
 		width: 100%;
 		padding: 1.5em;
 	}

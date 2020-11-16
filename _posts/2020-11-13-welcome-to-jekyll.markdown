@@ -1,25 +1,22 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+layout: page
+title:  "Justia Marketing Site"
 date:   2020-11-13 21:42:03 -0600
 categories: jekyll update
+permalink: cases/01
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## The Challenge
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Justia is an American website specializing in legal information, is one of the largest online databases of legal cases. The website offers free case law, codes, opinion summaries, and other basic legal texts, with paid services for its attorney directory and web hosting.
 
-Jekyll also offers powerful support for code snippets:
+Justia had a very simple and straightforward website to showcase their services, but visually wasn't attractive, and it didn’t showcase the design possibilities they offered. **The new website was required to be descriptive, informative, and attractive enough to boost sales.**
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+<img class="img" src="/contentimages/casestudies/marketing1.png">
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+## The Challenge
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Justia is an American website specializing in legal information, is one of the largest online databases of legal cases. The website offers free case law, codes, opinion summaries, and other basic legal texts, with paid services for its attorney directory and web hosting.
+
+Justia had a very simple and straightforward website to showcase their services, but visually wasn't attractive, and it didn’t showcase the design possibilities they offered. **The new website was required to be descriptive, informative, and attractive enough to boost sales.**
+
+<img class="img" src="/contentimages/casestudies/marketing1.png">
