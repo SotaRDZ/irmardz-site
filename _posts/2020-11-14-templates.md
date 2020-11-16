@@ -1,9 +1,8 @@
 ---
 layout: page
-title:  "Justia Marketing Site"
-date:   2020-11-14 21:42:03 -0600
-categories: jekyll update
-permalink: casestudies/justiamarketingsite
+header: "Templates"
+subheader: 2016
+permalink: casestudies/templates
 thumbnail: /contentimages/thumbnails/JMS.png
 ---
 

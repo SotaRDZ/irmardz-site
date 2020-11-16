@@ -63,7 +63,7 @@ h5 {
 h6 {
 	height: 18px;
 	margin-left: 5em;
-	width: 109px;
+	width: 500px;
 	color: #5C5655;
 	font-family: Lato;
 	font-weight: 400;
@@ -75,6 +75,23 @@ h6 {
 	display: inline-block;
 
 }
+
+h6 {
+	height: 18px;
+	margin-left: 5em;
+	width: 500px;
+	color: #5C5655;
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 15px;
+	font-style: italic;
+	letter-spacing: 0;
+	line-height: 18px;
+	text-transform: uppercase;
+	display: inline-block;
+
+}
+
 
 a,
 a:visited {
@@ -134,6 +151,32 @@ p {
 	margin-left: 50px;
 	margin-right: 50px;
 }
+
+.wrapper {
+	text-align: left;
+	
+	margin-left: 50px;
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+	align-content: center;
+	align-items: center;
+	div:first-child{max-width: 20%;}
+	div:nth-child(2){max-width: 70%;
+		margin-left: 5%;}
+		margin-right: 5%;}
+
+	.img{
+		max-width: 100%;
+		margin-top: 20px;
+	}
+	h6{
+		margin-left: 0;
+		margin-bottom: 0;
+
+	}
+}
+
 
 /* Navigation */
 
