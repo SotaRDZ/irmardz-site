@@ -4,6 +4,7 @@ header: "Avanade.com"
 subheader: 2016
 permalink: casestudies/avanadecom
 thumbnail: /contentimages/thumbnails/avanade.png
+headerimg: casestudies
 ---
 
 

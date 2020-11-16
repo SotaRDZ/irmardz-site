@@ -93,6 +93,9 @@ header {
 	text-align: left;
 	height: 340px;
 	background-image: url("/heroImages/about.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
 	&#casestudies{background-image: url("/heroImages/casestudies.png");}
 	&#experience{background-image: url("/heroImages/experience.png");}
 	&#contact{background-image: url("/heroImages/contact.png");}
@@ -100,6 +103,7 @@ header {
 		display: block;
 		max-width: 1044px;
 		width: 100%;
+		
 	}
 }
 main {
@@ -242,6 +246,7 @@ p {
 		margin-top: 40px;
 		margin-bottom:0px;
 	}
+}
 }
 
 .img{

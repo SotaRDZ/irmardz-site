@@ -4,5 +4,5 @@ title: about
 permalink: /about/
 header: Irma Rodriguez
 subheader: Product Designer
-id: about
+headerimg: about
 ---

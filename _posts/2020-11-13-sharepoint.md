@@ -2,8 +2,10 @@
 layout: page
 header: "Sharepoint Intranet"
 subheader: 2017-2018
+headerimg: casestudies
 permalink: casestudies/sharepointintranet
 thumbnail: /contentimages/thumbnails/sharepointintranet.png
+
 ---
 
 

@@ -3,7 +3,9 @@ layout: page
 header: "Templates"
 subheader: 2016
 permalink: casestudies/templates
-thumbnail: /contentimages/thumbnails/JMS.png
+thumbnail: /contentimages/thumbnails/websitetemplates.png
+headerimg: casestudies
+
 ---
 
 
