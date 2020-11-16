@@ -3,6 +3,6 @@ layout: page
 title: Experience
 permalink: /experience/
 header: Experience
-subheader:  
+subheader:  Curriculum Vitae
 id: experience
 ---

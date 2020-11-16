@@ -95,8 +95,10 @@ We tested all of our proposals against accessibility guidelines, but after deplo
 
 ## The Goodbye
 
-This was the first time I took ownership of a project and it was very difficult from me to move on from it, I still see changes made after I left and tthink how I would’ve done it since I created the look and feel. But I’ve come to realize that different people working on the project it’s what makes it feel alive and what gives room for continous iteration. 
+This was the first time I took ownership of a project and it was very difficult from me to move on from it, I still see changes made after I left and think how I would’ve done it since I created the look and feel. But I’ve come to realize that different people working on the project it’s what makes it feel alive and what gives room for continous iteration. 
 
 If it weren’t for an outside perspective as Emiko’s we probably couldn’t fix those issues for the Japanese users, so a fresh and new perspective is very needed on project as complex as this one.
+
+<p></p>
 
 <p></p>
