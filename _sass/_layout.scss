@@ -29,7 +29,9 @@ h1 {
 	}
 }
 h2 {
-	font-size: 2em;
+	display: inline-block;
+	font-size: 1.8em;
+	text-transform: uppercase;
 }
 h4 {
 	font-size: 1.2em;
@@ -40,7 +42,6 @@ h4 {
 	display: block;
 	font-weight: 400;
 }
-
 
 h5 {
 	font-size: .8em;
@@ -58,6 +59,23 @@ h5 {
 		text-decoration: none;
 	}
 }
+
+h6 {
+	height: 18px;
+	margin-left: 5em;
+	width: 109px;
+	color: #5C5655;
+	font-family: Lato;
+	font-weight: 400;
+	font-size: 15px;
+	font-style: italic;
+	letter-spacing: 0;
+	line-height: 18px;
+	text-transform: uppercase;
+	display: inline-block;
+
+}
+
 a,
 a:visited {
 	color: $link-color;
@@ -99,7 +117,18 @@ time {
 .img {
 	margin: 50px auto;
 	display: block;
+
 }
+.thumbnails {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding: 1.5em;
+	img {
+		max-width: 300px;
+	}
+}
+
 
 p {
 	margin-left: 50px;
