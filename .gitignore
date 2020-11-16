@@ -1,3 +1,8 @@
-_site
-.sass-cache
+node_modules
+bash
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
+.bash_sessions
+.DS_Store
