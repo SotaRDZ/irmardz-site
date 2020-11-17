@@ -1,0 +1,59 @@
+main.columns {
+	display: flex;
+	
+	aside {
+		width: 30%;
+		position: relative;
+
+		&::after {
+			content: '';
+			position: absolute;
+			border-right: 5px solid grey;
+			width: 5px;
+			height: calc(100% - 15em);
+			right: 0;
+			top: 5em;
+		}
+	}
+
+	.block {
+
+
+		p {
+			position: relative;
+			margin-right: 0;
+			padding-right: 1em;
+			
+			::after {
+				content: '';
+				position: absolute;
+				border-right: 5px solid red;
+				width: 5px;
+				height: 2em;
+				right: 0;
+				z-index: 1;
+				top: 0
+			}
+	}
+
+		strong,
+		em {
+			display: inline-block;
+		}
+
+		&.-with-img {
+			margin-top: -50px;
+
+			img {
+				margin: 0 auto;
+				display: block;
+				border: 10px solid grey;
+				border-radius: 50%;
+			}
+		}
+	}
+
+	article {
+		width: 70%;
+	}
+}

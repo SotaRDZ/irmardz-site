@@ -105,19 +105,29 @@ header {
 		
 	}
 }
+
 main {
 	padding: 0 15px;
 	max-width: $content-width;
 	margin: 0 auto;
+
+	&.columns {
+		display: flex;
+		
+		aside {
+		  width: 30%;
+	  }
+
+	  article {
+		  width: 70%;
+	  }
+	}
 }
-time {
-	color: #898989;
-}
+
 .container {
 	max-width: $content-width;
 	margin: 0 auto;
 }
-
 
 .thumbnails {
 	display: flex;
