@@ -83,7 +83,7 @@ We tested all of our proposals against accessibility guidelines, but after deplo
 <div class="wrapper3">
     <div>
         <h6> Guidelines for different Scenarios </h6>
-    <img class="" src="/contentimages/casestudies/avanade8.png">
+    <img class="largeimg img" src="/contentimages/casestudies/avanade8.png">
 </div>
 
 <div>

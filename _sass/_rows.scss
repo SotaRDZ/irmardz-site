@@ -1,0 +1,135 @@
+aside {
+    width: 30%;
+    position: relative;
+    
+
+    &::after {
+        content: '';
+        position: absolute;
+        border-right: 5px solid rgba($color: #D8D8D8, $alpha: .4);
+        width: 5px;
+        height: calc(100% - 4em);
+        right: 0;
+        top: 5em;
+    }
+    @media only screen and (max-width: 600px) {
+        display: block;
+        width: 100%;
+        &::after {
+			display: none;
+			}
+        }
+    
+}
+
+.sidebar{
+    color: #6A6A6A;
+    font-family: Lato;
+    font-size: 1em;
+    letter-spacing: 0;
+    line-height: 19px;
+    padding-top: 5px;
+    display: block;
+    a{
+        margin-top: 40px;
+        display: block;
+    }
+
+    span{
+        display: block;
+        margin-top: 2%;
+    }
+}
+
+.block {
+
+
+    p {
+        position: relative;
+        margin-right: 0;
+        padding-right: 1em;
+
+        &::after {
+            content: '';
+            position: absolute;
+            border-right: 5px solid #DF6D6D;
+            width: 5px;
+            height: 2em;
+            right: 0;
+            z-index: 1;
+            top: 0
+        }
+
+    	@media only screen and (max-width: 600px) {
+            margin-right: 25px;
+            margin-left: 25px;
+            padding: 0;
+
+            &::after {
+                display: none;
+            }
+        }
+    }
+
+
+    strong,
+    em {
+        display: block;
+    }
+    strong{
+        display: inline-block;
+        font-size: 1.4em;
+        text-transform: uppercase;
+        font-family: $heading-font;
+    }
+
+    &.-with-img {
+        margin-top: -80px;
+        img {
+            margin: 0 auto 0;
+            display: block;
+            box-shadow: 0 0 4px 0 rgba(0,0,0,0.18);
+            border-radius: 50%;
+            border: 8px solid #FFFFFF;
+            width: 60%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            display: block;
+            width: 100%;
+            &.margin {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+//Contenido
+
+.row {
+    display: flex;
+    margin-bottom: 50px;
+    &:nth-child(2) aside::after {
+        top: -4.1em;
+        height: calc(100% + 6em);
+
+    }
+    @media only screen and (max-width: 600px) {
+        display: block;
+    }
+
+}
+.containeraside {
+
+		width: 70%;
+        margin-top: 120px;
+
+        ul{
+            margin-top: 0px;
+        }
+        @media only screen and (max-width: 600px) {
+            display: block;
+            width: 100%;
+            margin-top: 0px;
+        }
+    }
