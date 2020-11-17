@@ -66,12 +66,12 @@ One problem we didn’t have in mind with designing was, how the website would l
 <div class="wrapper2">
 <div>
 <h6> Before </h6>
-<img class="" src="/contentimages/casestudies/avanade6.png">
+<img class="img" src="/contentimages/casestudies/avanade6.png">
 </div>
 
 <div>
 <h6> After </h6>
-<img class="" src="/contentimages/casestudies/avanade7.png">
+<img class="img" src="/contentimages/casestudies/avanade7.png">
 </div>
 </div>
 
