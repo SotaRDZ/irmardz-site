@@ -216,10 +216,14 @@ p {
 					margin-bottom: -1px;
 					height: 44px;
 					box-shadow: 0;
-					&:hover,
+					&:hover{
+						text-decoration: bold;
+						color: $main;
+						border-bottom: 2px solid #222122;
+					}
 					&:active {
 						background: $header;
-						text-decoration: none;
+						text-decoration: bold;
 						color: $main;
 					}
 
@@ -256,6 +260,9 @@ footer {
 		max-width: $content-width;
 		width: 100%;
 		padding: 1.5em;
+	}
+	a:hover{
+		color: #DF6D6D;
 	}
 	@media only screen and (max-width: 600px) {
 		.container{
