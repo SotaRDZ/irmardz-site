@@ -48,6 +48,7 @@ aside {
         position: relative;
         margin-right: 0;
         padding-right: 1em;
+        margin-top: 10%;
 
         &::after {
             content: '';
@@ -81,6 +82,7 @@ aside {
         font-size: 1.4em;
         text-transform: uppercase;
         font-family: $heading-font;
+        line-height: 1.2em;
     }
 
     &.-with-img {
